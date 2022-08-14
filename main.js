@@ -1,11 +1,11 @@
 function createStar() {
-    const heart = document.createElement("div");
+    const star = document.createElement("div");
     star.classList.add("star");
 
-    heart.style.left = Math.random() * 100 + "vw";
-    heart.style.animationDuration = Math.random() * 2 + 3 + "s";
+    star.style.left = Math.random() * 100 + "vw";
+    star.style.animationDuration = Math.random() * 2 + 3 + "s";
 
-    heart.innerText = "⭐";
+    star.innerText = "⭐";
     
 
     document.body.appendChild(star);
